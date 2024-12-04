@@ -19,23 +19,24 @@ Full Python functionality preservation
 Automatic module handling
 Native executable permissions
 Linux system compatibility
+
 📖 Usage
 Basic Compilation
-./compyler.py your_script.py
 
+./compyler.py your_script.py
 
 Quick Example
 echo 'print("Hello World!")' > test.py
 
-
 ./compyler.py test.py
-
 
 ./test
 
 
 🔬 Advanced Features
+
 Self Compilation
+
 ./compyler.py compyler.py
 
 
@@ -70,24 +71,31 @@ Checksum validation
 Permission preservation
 Source isolation
 Runtime environment protection
+
 Advanced Usage Examples
+
 Custom Runtime Path
+
 ./compyler.py --runtime-path /custom/python/path script.py
 
 
 Verbose Compilation
+
 ./compyler.py --verbose script.py
 
 
 Module Inclusion
+
 ./compyler.py --include-modules module1,module2 script.py
 
 
 Debug Mode
+
 ./compyler.py --debug script.py
 
 
 🔧 Technical Architecture
+
 Core Process
 Bytecode Compilation: Python source → bytecode via py_compile
 ZIP Packaging: Bytecode → ZIP archive
@@ -101,7 +109,9 @@ Initialization with source path
 Binary creation pipeline
 ZIP data management
 Permission handling
+
 💼 Use Cases
+
 Application Distribution
 Single-file executable deployment
 Simplified distribution
@@ -110,14 +120,20 @@ DevOps & System Tools
 System administration scripts
 Automation tools
 Command-line utilities
+
 📋 Requirements
+
 Python 3.x
 Linux operating system
+
 ⚠️ Current Limitations
+
 Requires Python on target system
 Linux-only support
 Source code remains accessible
+
 🛠️ Project Structure
+
 compyler/
 ├── compyler.py        # Core compiler
 ├── README.md          # Documentation
@@ -125,22 +141,27 @@ compyler/
 
 
 🚀 Roadmap
+
 Windows compatibility
 Code obfuscation features
 Custom binary naming
 Multi-file compilation
 Resource bundling
 Cross-platform support
-🤝 Contributing
-We welcome contributions! Feel free to:
 
+🤝 Contributing
+
+We welcome contributions! Feel free to:
 Report bugs
 Suggest features
 Submit pull requests
 Improve documentation
+
 📄 License
+
 MIT License - See LICENSE file for details
 
 🔗 Links
+
 GitHub Repository
 Issue Tracker
