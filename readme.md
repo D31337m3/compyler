@@ -14,23 +14,24 @@
 
 ## Installation
 ```bash
-pip install compyler
+pip install compyler 
 
-Quick Start
+
+## Quick Start
 compyler your_script.py
 
-Advanced Usage
-Basic Compilation
+##Advanced Usage
+****Basic Compilation
 compyler source.py -o output_dir
 
-With Runtime Embedding
+**With Runtime Embedding
 compyler source.py --embed-runtime
 
-Performance Optimization
+**Performance Optimization
 compyler source.py --optimize=2
 
-Configuration
-Create compyler.yaml in your project root:
+**Configuration
+*Create compyler.yaml in your project root:
 
 compilation:
   optimization_level: 2
@@ -51,44 +52,47 @@ from compyler import Compiler
 compiler = Compiler('source.py')
 result = compiler.compile(optimize=True)
 
-Features Documentation
-    Memory Management
+##Features Documentation
+**Memory Management
         Automatic memory optimization
         Resource cleanup
         Memory usage monitoring
 
-Security
+**Security
     Code validation
     Binary signing
     Sandbox compilation
 
-Performance
+**Performance
     Multi-threaded compilation
     Caching system
     Resource optimization
 
-Monitoring
+**Monitoring
     Real-time progress tracking
     Performance analytics
     Error tracking
     Resource usage statistics
 
-Deployment
+##Deployment
     Automated deployment
     Version control
     Rollback support
 
-Contributing
+##Contributing
     Fork the repository
     Create feature branch
     Commit changes
     Push to branch
     Create Pull Request
 
-License
+##License
     MIT License
 
-Requirements
+##Requirements
     Python 3.7+
-    64-bit operating system
+    64-bit operating system , Currently only supports Linux and macOS
     4GB RAM minimum
+
+    ##Contact 
+    For any inquiries, please contact us at questions@compyler.com
